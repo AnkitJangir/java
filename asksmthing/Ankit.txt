@@ -1,0 +1,2 @@
+Q 1. Why can't a abstract class and method final??
+Q 2. What is the advantage of variable as public , static and final in interface ?

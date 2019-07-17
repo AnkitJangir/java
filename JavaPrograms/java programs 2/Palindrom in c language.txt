@@ -1,0 +1,37 @@
+#include<stdio.h> 
+#include<conio.h> 
+void main() 
+{ 
+int rem,rev,p,q,k; 
+printf("\n Enter the lower limit number:"); 
+scanf("%d",&p); 
+printf("\n Enter the upper limit number:"); 
+scanf("%d",&q); 
+while(p<=q) 
+{ 
+k=p; 
+rem=0; 
+rev=0; 
+while(k>0) 
+{ 
+rem=k%10; 
+k=k/l0; 
+rev=(rev*10)+rem; 
+} 
+if(p==rev) 
+{ 
+printf("\n%d is palindrome.",p); 
+} 
+p=p+1; 
+} 
+getch(); 
+} 
+  
+OUTPUT: 
+  
+Enter the lower limit number: 10 
+Enter the upper limit number: 50 
+11 is palindrome. 
+22 is palindrome. 
+33 is palindrome. 
+44 is palindrome. 
